@@ -12,7 +12,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class CiHomeIndexController {
 
     @RequestMapping(value = "/")
-    public String hello() {
+    public String index() {
+
         return "index";
     }
 }
